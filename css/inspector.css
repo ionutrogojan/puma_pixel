@@ -1,0 +1,11 @@
+.inspector {
+    background-color: var(--c-80);
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2px;
+}
