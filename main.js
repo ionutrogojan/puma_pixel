@@ -1,5 +1,6 @@
 import "./modules/canvas.js";
 import "./modules/toolbar.js";
+import "./modules/layer.js";
 
 const icon = document.querySelector('link[rel = "shortcut icon"]')
 const updatePage = (text, image) => { document.title = text, icon.href = `./img/logo/${image}` }

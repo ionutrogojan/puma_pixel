@@ -25,12 +25,15 @@
     --c-a-100: #FF9900;
     
     --h-16: 16px;
+    --h-24: 24px;
     --h-30: 30px;
     --h-40: 40px;
 
     --s-2: 2px;
     --s-8: 8px;
     --s-16: 16px;
+
+    --r-c: 8px;
     
     font-family: 'Windows', sans-serif;
     font-size: 14px;
@@ -39,6 +42,7 @@
 
 *,::before,::after {
     box-sizing: border-box;
+    user-select: none;
 }
 
 html {
